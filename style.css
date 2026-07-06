@@ -1,6 +1,4 @@
-/* -------------------------
-   Wedding Directions v1
--------------------------- */
+/* Wedding Directions v1 */
 
 *{
     margin:0;
@@ -10,70 +8,118 @@
 
 body{
     background:#ffffff;
-    color:#1f1f1f;
+    color:#222;
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif;
     line-height:1.8;
 }
 
 .container{
     max-width:520px;
-    margin:auto;
-    padding:80px 30px;
+    margin:0 auto;
+    padding:70px 28px 90px;
 }
 
-.small-title{
-    text-transform:uppercase;
-    letter-spacing:2px;
-    font-size:13px;
-    color:#888;
+.hero{
+    text-align:center;
 }
 
-h1{
-    font-size:44px;
+.hero h1{
+    font-size:34px;
     font-weight:300;
-    line-height:1.15;
-    margin-top:15px;
+    letter-spacing:-0.5px;
 }
 
 .date{
-    margin-top:70px;
-    color:#666;
-    font-size:17px;
+    margin-top:35px;
+    color:#777;
+    font-size:16px;
 }
 
-.hall{
-    margin-top:30px;
-    font-size:26px;
+.hero h2{
+    margin-top:45px;
+    font-size:28px;
     font-weight:500;
 }
 
-.place{
+.hall{
     margin-top:8px;
     color:#777;
 }
 
-.line{
-    width:70px;
-    height:1px;
-    background:#ddd;
-    margin:60px auto;
+.link-area{
+    margin-top:70px;
+    border-top:1px solid #ececec;
+    border-bottom:1px solid #ececec;
 }
 
-.button{
+.link{
     display:block;
     text-decoration:none;
     color:#222;
-    border:1px solid #ddd;
-    text-align:center;
-    padding:16px;
-    margin-bottom:14px;
-    transition:.25s;
+    padding:18px 0;
+    transition:.2s;
 }
 
-.button:hover{
-    background:#222;
-    color:white;
+.link:not(:last-child){
+    border-bottom:1px solid #f2f2f2;
 }
-body{
-    background:#f5f2ed;
+
+.link:hover{
+    padding-left:10px;
+}
+.map{
+    margin-top:70px;
+}
+
+.map h3{
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:18px;
+}
+
+.map img{
+    width:100%;
+    display:block;
+    border:1px solid #ececec;
+    border-radius:10px;
+}
+
+.traffic{
+    margin-top:70px;
+}
+
+.traffic article{
+    padding:28px 0;
+    border-top:1px solid #ececec;
+}
+
+.traffic article:last-child{
+    border-bottom:1px solid #ececec;
+}
+
+.traffic h3{
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:10px;
+}
+
+.traffic p{
+    color:#666;
+    font-size:15px;
+}
+
+@media (max-width:480px){
+
+    .container{
+        padding:55px 22px 70px;
+    }
+
+    .hero h1{
+        font-size:30px;
+    }
+
+    .hero h2{
+        font-size:24px;
+    }
+
 }

@@ -1,13 +1,42 @@
-const copyButton = document.getElementById("copyAddress");
+document.addEventListener("DOMContentLoaded", () => {
 
-copyButton.addEventListener("click", function(e){
+    const copyButton = document.getElementById("copyAddress");
+    const toast = document.getElementById("toast");
 
-    e.preventDefault();
+    copyButton.addEventListener("click", async (e) => {
 
-    navigator.clipboard.writeText(
-        "부산광역시 해운대구 센텀중앙로 79 센텀사이언스파크"
-    );
+        e.preventDefault();
 
-    alert("주소가 복사되었습니다.");
+        const address = "부산광역시 해운대구 센텀중앙로 79";
+
+        try{
+
+            await navigator.clipboard.writeText(address);
+
+        }catch{
+
+            const textarea = document.createElement("textarea");
+
+            textarea.value = address;
+
+            document.body.appendChild(textarea);
+
+            textarea.select();
+
+            document.execCommand("copy");
+
+            document.body.removeChild(textarea);
+
+        }
+
+        toast.classList.add("show");
+
+        setTimeout(() => {
+
+            toast.classList.remove("show");
+
+        },2000);
+
+    });
 
 });

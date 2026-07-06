@@ -74,7 +74,7 @@ body{
     text-decoration:none;
     color:#222;
 
-    padding:22px 4px;
+    padding:24px 8px;
 
     font-size:17px;
     font-weight:500;
@@ -131,8 +131,14 @@ body{
     display:block;
     border:1px solid #ececec;
     border-radius:18px;
+    
+        transition:.25s;
 }
+.map img:hover{
 
+    transform:scale(1.01);
+
+}
 .traffic{
     margin-top:70px;
 }

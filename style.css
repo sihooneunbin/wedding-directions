@@ -132,8 +132,13 @@ body{
 }
 
 .traffic p{
+
     color:#666;
+
     font-size:15px;
+
+    line-height:2;
+
 }
 
 @media (max-width:480px){

@@ -50,13 +50,25 @@ body{
 
 .hall{
 
+    margin-top:10px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    color:#444;
+
+}
+
+.hall-address{
+
     margin-top:12px;
 
     color:#777;
 
-    font-size:15px;
+    font-size:16px;
 
-    line-height:1.9;
+    line-height:1.8;
 
 }
 

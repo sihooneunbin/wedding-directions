@@ -34,29 +34,39 @@ body{
 
     margin-top:35px;
 
-    color:#777;
+    color:#8b8b8b;
 
-    font-size:16px;
+    font-size:17px;
 
-    letter-spacing:1px;
+    letter-spacing:.5px;
+
+    line-height:2;
 
 }
-
 .hero h2{
-    margin-top:45px;
-    font-size:32px;
-    font-weight:700;
-}
 
+    margin-top:45px;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    letter-spacing:-0.5px;
+
+    line-height:1.4;
+
+}
 .hall{
 
-    margin-top:10px;
+    margin-top:14px;
 
     font-size:20px;
 
     font-weight:600;
 
-    color:#444;
+    color:#8c6f4e;
+
+    letter-spacing:.5px;
 
 }
 
@@ -66,7 +76,7 @@ body{
 
     color:#777;
 
-    font-size:16px;
+    font-size:15px;
 
     line-height:1.8;
 

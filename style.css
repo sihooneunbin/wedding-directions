@@ -231,3 +231,22 @@ body{
     margin:28px auto;
 
 }
+/* ===== Fade In ===== */
+
+.fade{
+
+    opacity:0;
+
+    transform:translateY(25px);
+
+    transition:.8s ease;
+
+}
+
+.fade.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}

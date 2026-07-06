@@ -53,11 +53,37 @@ body{
 }
 
 .link{
-    display:block;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
     text-decoration:none;
     color:#222;
-    padding:18px 0;
-    transition:.2s;
+
+    padding:18px 2px;
+
+    font-size:17px;
+    font-weight:500;
+
+    transition:.25s;
+}
+
+.link::after{
+
+    content:"›";
+
+    color:#999;
+
+    font-size:22px;
+
+}
+
+.link:hover{
+
+    color:#000;
+
+    padding-left:8px;
+
 }
 
 .link:not(:last-child){

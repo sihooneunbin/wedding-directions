@@ -157,3 +157,41 @@ body{
     font-size:14px;
     color:#999;
 }
+/* ===== Toast ===== */
+
+#toast{
+
+    position:fixed;
+
+    left:50%;
+    bottom:35px;
+
+    transform:translateX(-50%) translateY(30px);
+
+    background:#222;
+
+    color:white;
+
+    padding:14px 24px;
+
+    border-radius:30px;
+
+    font-size:15px;
+
+    opacity:0;
+
+    transition:.35s;
+
+    pointer-events:none;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+}
+
+#toast.show{
+
+    opacity:1;
+
+    transform:translateX(-50%) translateY(0);
+
+}

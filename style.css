@@ -195,3 +195,16 @@ body{
     transform:translateX(-50%) translateY(0);
 
 }
+.footer{
+
+    margin-top:90px;
+
+    text-align:center;
+
+    color:#888;
+
+    font-size:15px;
+
+    line-height:1.9;
+
+}

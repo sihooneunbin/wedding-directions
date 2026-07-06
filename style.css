@@ -220,3 +220,14 @@ body{
     line-height:1.9;
 
 }
+.title-line{
+
+    width:55px;
+
+    height:1px;
+
+    background:#d8d2ca;
+
+    margin:28px auto;
+
+}

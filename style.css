@@ -10,7 +10,7 @@ body{
     background:#faf8f5;
     color:#222;
     font-family:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-    line-height:1.8;
+    line-height:1.9;
 }
 
 .container{
@@ -21,6 +21,7 @@ body{
 
 .hero{
     text-align:center;
+    animation: fadeUp 1s ease;
 }
 
 .hero h1{
@@ -30,14 +31,20 @@ body{
 }
 
 .date{
+
     margin-top:35px;
+
     color:#777;
+
     font-size:16px;
+
+    letter-spacing:1px;
+
 }
 
 .hero h2{
     margin-top:45px;
-    font-size:30px;
+    font-size:32px;
     font-weight:700;
 }
 
@@ -219,6 +226,8 @@ body{
 
     line-height:1.9;
 
+    opacity:.8;
+
 }
 .title-line{
 
@@ -248,5 +257,18 @@ body{
     opacity:1;
 
     transform:translateY(0);
+
+}
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 
 }

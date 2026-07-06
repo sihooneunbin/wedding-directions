@@ -24,9 +24,9 @@ body{
 }
 
 .hero h1{
-    font-size:34px;
+    font-size:40px;
     font-weight:300;
-    letter-spacing:-0.5px;
+    letter-spacing:-1px;
 }
 
 .date{
@@ -37,13 +37,20 @@ body{
 
 .hero h2{
     margin-top:45px;
-    font-size:28px;
-    font-weight:500;
+    font-size:30px;
+    font-weight:600;
 }
 
 .hall{
-    margin-top:8px;
+
+    margin-top:12px;
+
     color:#777;
+
+    font-size:15px;
+
+    line-height:1.9;
+
 }
 
 .link-area{
@@ -60,7 +67,7 @@ body{
     text-decoration:none;
     color:#222;
 
-    padding:18px 2px;
+    padding:22px 4px;
 
     font-size:17px;
     font-weight:500;
@@ -109,7 +116,7 @@ body{
     width:100%;
     display:block;
     border:1px solid #ececec;
-    border-radius:10px;
+    border-radius:18px;
 }
 
 .traffic{

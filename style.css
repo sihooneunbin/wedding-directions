@@ -16,7 +16,7 @@ body{
 .container{
     max-width:520px;
     margin:0 auto;
-    padding:90px 28px 100px;
+    padding:100px 30px 110px;
 }
 
 .hero{
@@ -270,5 +270,16 @@ body{
         opacity:1;
         transform:translateY(0);
     }
+
+}
+.title-line{
+
+    width:55px;
+
+    height:1px;
+
+    background:#ddd6ce;
+
+    margin:26px auto;
 
 }

@@ -80,6 +80,9 @@ body{
     font-weight:500;
 
     transition:.25s;
+
+    cursor:pointer;
+    
 }
 
 .link::after{
@@ -101,7 +104,11 @@ body{
     transform:translateX(6px);
 
 }
+.link:active{
 
+    transform:translateX(6px) scale(.98);
+
+}
 .link:not(:last-child){
     border-bottom:1px solid #f2f2f2;
 }

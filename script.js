@@ -1,3 +1,4 @@
+alert("script 연결 성공!");
 const copyButton = document.getElementById("copyAddress");
 
 copyButton.addEventListener("click", function(e){

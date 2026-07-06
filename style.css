@@ -166,8 +166,11 @@ body{
 }
 
 .traffic article{
-    padding:28px 0;
+
+    padding:36px 0;
+
     border-top:1px solid #ececec;
+
 }
 
 .traffic article:last-child{
@@ -175,9 +178,15 @@ body{
 }
 
 .traffic h3{
-    font-size:18px;
-    font-weight:500;
-    margin-bottom:10px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    letter-spacing:-0.3px;
+
+    margin-bottom:14px;
+
 }
 
 .traffic p{
@@ -186,8 +195,8 @@ body{
 
     font-size:15px;
 
-    line-height:2;
-
+    line-height:2.1;
+letter-spacing:-0.2px;
 }
 
 @media (max-width:480px){

@@ -64,3 +64,30 @@ window.addEventListener("load", function(){
     window.scrollTo(0,0);
 
 });
+const topButton = document.getElementById("topButton");
+
+window.addEventListener("scroll", () => {
+
+    if(window.scrollY > 300){
+
+        topButton.classList.add("show");
+
+    }else{
+
+        topButton.classList.remove("show");
+
+    }
+
+});
+
+topButton.addEventListener("click", () => {
+
+    window.scrollTo({
+
+        top:0,
+
+        behavior:"smooth"
+
+    });
+
+});

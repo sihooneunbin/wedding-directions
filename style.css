@@ -430,8 +430,6 @@ transition:opacity .8s ease, transform .8s ease;
 
     transform:scale(.98);
 
-    visibility:hidden;
-
     pointer-events:none;
 
 }

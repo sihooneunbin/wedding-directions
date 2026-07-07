@@ -453,7 +453,7 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
     font-size:28px;
 
-    font-weight:500;
+    font-weight:400;
 
     color:#b59a7d;
 
@@ -461,10 +461,15 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
 }
 .amp{
+
     font-family: "Times New Roman", serif;
+
     font-style: italic;
-    font-size:18px;
-    opacity:.6;
+
+    font-size:17px;
+
+    opacity:.75;
+
 }
 .opening-line{
 

@@ -128,7 +128,7 @@ const infowindow = new kakao.maps.InfoWindow({
                 font-size:15px;
                 font-weight:600;
             ">
-                센텀사이언스파크 웨딩홀
+                센텀사이언스파크
             </div>
         </div>
     `

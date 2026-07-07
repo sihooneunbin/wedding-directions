@@ -431,10 +431,7 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
     transform:scale(.98);
 
-    pointer-events:none;
-
 }
-
 .opening-content{
 
     text-align:center;

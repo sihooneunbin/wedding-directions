@@ -591,3 +591,32 @@ background:#ddd6ce;
     color:#8b6b4c;
 
 }
+.overlay-hidden{
+
+    opacity:0;
+
+    transform:translateY(10px);
+
+    animation:overlayShow .28s ease forwards;
+
+}
+
+@keyframes overlayShow{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(10px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}

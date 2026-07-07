@@ -444,6 +444,8 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
     margin-bottom:18px;
 
+    animation:heartbeat .8s ease;
+
 }
 
 .opening-name{
@@ -473,6 +475,29 @@ transform:translateX(-50%) translateY(30px) scale(.95);
         opacity:1;
 
         transform:translateY(0);
+@keyframes heartbeat{
+
+    0%{
+
+        transform:scale(.9);
+
+        opacity:0;
+
+    }
+
+    50%{
+
+        transform:scale(1.08);
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+        opacity:1;
 
     }
 

@@ -446,17 +446,10 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
 }
 
-.opening-heart{
-
-    font-size:44px;
-
-    margin-bottom:28px;
-
-    animation:heartbeat .8s ease;
-
-}
 
 .opening-name{
+
+    margin-top:20px;
 
     font-size:28px;
 

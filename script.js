@@ -57,3 +57,8 @@ const observer = new IntersectionObserver((entries)=>{
 });
 
 fades.forEach(item=>observer.observe(item));
+window.addEventListener("load", function(){
+
+    window.scrollTo(0,0);
+
+});

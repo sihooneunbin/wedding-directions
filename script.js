@@ -118,11 +118,20 @@ marker.setMap(map);
 
 const infowindow = new kakao.maps.InfoWindow({
     content: `
-        <div style="padding:12px 16px; text-align:center;">
-            <div style="font-size:18px;">🤍</div>
-            <div style="font-weight:bold;">센텀사이언스파크 웨딩홀</div>
-            <div style="font-size:13px; color:#777;">
-                2026.12.12 (토) 오후 4:00
+        <div style="
+            padding:10px 16px;
+            text-align:center;
+            font-family:Pretendard,sans-serif;
+            white-space:nowrap;
+        ">
+            <div style="font-size:16px;">🤍</div>
+
+            <div style="
+                font-size:15px;
+                font-weight:600;
+                margin-top:4px;
+            ">
+                센텀사이언스파크 웨딩홀
             </div>
         </div>
     `

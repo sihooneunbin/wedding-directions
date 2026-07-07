@@ -95,9 +95,13 @@ window.addEventListener("load",()=>{
 
     const opening=document.getElementById("opening");
 
+    const container=document.querySelector(".container");
+
     setTimeout(()=>{
 
         opening.classList.add("hide");
+
+        container.classList.add("show");
 
     },1200);
 

@@ -477,9 +477,9 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
     height:1px;
 
-    background:#ddd6ce;
+background:#d7c1a6;
 
-    margin:22px auto;
+    margin:16px auto;
 
 }
 
@@ -489,7 +489,7 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
     color:#999;
 
-    letter-spacing:2px;
+    letter-spacing:3px;
 
 }
 

@@ -89,6 +89,8 @@ topButton.addEventListener("click", () => {
         behavior:"smooth"
 
     });
+    
+});
 
 window.addEventListener("load", () => {
 

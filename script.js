@@ -90,22 +90,14 @@ topButton.addEventListener("click", () => {
 
     });
 
-});
-window.addEventListener("load",()=>{
+window.addEventListener("load", () => {
 
-    const opening=document.getElementById("opening");
-
-    const container=document.querySelector(".container");
-
-setTimeout(() => {
-
-    opening.classList.add("hide");
+    const opening = document.getElementById("opening");
 
     setTimeout(() => {
 
-        container.classList.add("show");
-        opening.style.display = "none";
+        opening.classList.add("hide");
 
-    }, 800);
+    }, 1800);
 
-}, 1200);
+});

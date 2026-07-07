@@ -119,11 +119,12 @@ marker.setMap(map);
 const infowindow = new kakao.maps.InfoWindow({
 content: `
 <div style="
-    padding:10px 16px;
+    padding:6px 10px;
     text-align:center;
     font-family:Pretendard,sans-serif;
+    white-space:nowrap;
 ">
-    <div style="font-size:15px;font-weight:600;">
+    <div style="font-size:14px;font-weight:600;">
         센텀사이언스파크
     </div>
 
@@ -134,7 +135,17 @@ content: `
 `
 });
 
+let isOpen = false;
+
 kakao.maps.event.addListener(marker, 'click', function () {
-    infowindow.open(map, marker);
+
+    if (isOpen) {
+        infowindow.close();
+        isOpen = false;
+    } else {
+        infowindow.open(map, marker);
+        isOpen = true;
+    }
+
 });
 });

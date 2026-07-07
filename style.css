@@ -244,11 +244,11 @@ letter-spacing:-0.2px;
 
     color:white;
 
-    padding:12px 28px;
+    padding:10px 24px;
 
-    border-radius:18px;
+    border-radius:14px;
 
-    font-size:16px;
+    font-size:15px;
 
     opacity:0;
 
@@ -256,7 +256,7 @@ letter-spacing:-0.2px;
 
     pointer-events:none;
 
-    box-shadow:0 10px 25px rgba(0,0,0,.18);
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
 
     min-width:320px;
 

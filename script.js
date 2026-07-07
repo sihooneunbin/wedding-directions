@@ -124,12 +124,9 @@ const infowindow = new kakao.maps.InfoWindow({
             font-family:Pretendard,sans-serif;
             white-space:nowrap;
         ">
-            <div style="font-size:16px;">🤍</div>
-
             <div style="
                 font-size:15px;
                 font-weight:600;
-                margin-top:4px;
             ">
                 센텀사이언스파크 웨딩홀
             </div>
@@ -140,5 +137,5 @@ const infowindow = new kakao.maps.InfoWindow({
 kakao.maps.event.addListener(marker, 'click', function () {
     infowindow.open(map, marker);
 });
-
+infowindow.open(map, marker);
 });

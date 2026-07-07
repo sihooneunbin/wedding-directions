@@ -116,36 +116,15 @@ const marker = new kakao.maps.Marker({
 
 marker.setMap(map);
 
-const infowindow = new kakao.maps.InfoWindow({
-content: `
-<div style="
-    padding:10px 16px;
-    font-family:Pretendard,sans-serif;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-">
-<div style="
-    font-size:15px;
-    font-weight:600;
-    text-align:center;
-    width:100%;
-">
-    센텀사이언스파크
-</div>
-
-<div style="
-    font-size:13px;
-    color:#8b6b4c;
-    margin-top:4px;
-    text-align:center;
-    width:100%;
-">
-    1층 라움홀
-</div>
-</div>
-`
+const overlay = new kakao.maps.CustomOverlay({
+    position: marker.getPosition(),
+    yAnchor: 1.75,
+    content: `
+        <div class="overlay-box">
+            <div class="overlay-title">센텀사이언스파크</div>
+            <div class="overlay-sub">1층 라움홀</div>
+        </div>
+    `
 });
 
 let isOpen = false;
@@ -153,10 +132,10 @@ let isOpen = false;
 kakao.maps.event.addListener(marker, 'click', function () {
 
     if (isOpen) {
-        infowindow.close();
+        overlay.setMap(null);
         isOpen = false;
     } else {
-        infowindow.open(map, marker);
+        overlay.setMap(map);
         isOpen = true;
     }
 

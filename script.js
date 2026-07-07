@@ -30,7 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         toast.classList.add("show");
-
+if (navigator.vibrate) {
+    navigator.vibrate(30);
+}
         setTimeout(() => {
 
             toast.classList.remove("show");

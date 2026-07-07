@@ -154,12 +154,17 @@ background:rgba(250,248,245,.96);
 }
 
 .map img{
+
     width:100%;
+
     display:block;
-    border:1px solid #ececec;
+
     border-radius:18px;
-    
-        transition:.25s;
+
+    filter:drop-shadow(0 8px 20px rgba(0,0,0,.08));
+
+    transition:.25s;
+
 }
 .map img:hover{
 

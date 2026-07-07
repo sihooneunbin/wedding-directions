@@ -153,24 +153,20 @@ background:rgba(250,248,245,.96);
     margin-bottom:18px;
 }
 
-.map img{
+.map iframe{
 
     width:100%;
 
-    display:block;
+    height:340px;
+
+    border:none;
 
     border-radius:18px;
 
     filter:drop-shadow(0 8px 20px rgba(0,0,0,.08));
 
-    transition:.25s;
-
 }
-.map img:hover{
 
-    transform:scale(1.01);
-
-}
 .traffic{
     margin-top:70px;
 }

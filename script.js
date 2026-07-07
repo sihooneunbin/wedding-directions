@@ -110,10 +110,17 @@ kakao.maps.load(function () {
 
     const map = new kakao.maps.Map(mapContainer, mapOption);
 
-    const marker = new kakao.maps.Marker({
-        position: new kakao.maps.LatLng(35.174139, 129.1260944)
-    });
+const imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
 
-    marker.setMap(map);
+const imageSize = new kakao.maps.Size(24, 35);
+
+const markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);
+
+const marker = new kakao.maps.Marker({
+    position: new kakao.maps.LatLng(35.174139, 129.1260944),
+    image: markerImage
+});
+
+marker.setMap(map);
 
 });

@@ -125,12 +125,12 @@ background:rgba(250,248,245,.96);
 
     border-radius:12px;
 
-    transform:translateX(6px);
+    transform:translateX(4px);
 
 }
 .link:active{
 
-    transform:translateX(6px) scale(.98);
+    transform:translateX(6px) translateY(2px) scale(.98);
 
 }
 .link:not(:last-child){

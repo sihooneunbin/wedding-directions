@@ -117,25 +117,24 @@ const marker = new kakao.maps.Marker({
 marker.setMap(map);
 
 const infowindow = new kakao.maps.InfoWindow({
-    content: `
-        <div style="
-            padding:10px 16px;
-            text-align:center;
-            font-family:Pretendard,sans-serif;
-            white-space:nowrap;
-        ">
-            <div style="
-                font-size:15px;
-                font-weight:600;
-            ">
-                센텀사이언스파크
-            </div>
-        </div>
-    `
+content: `
+<div style="
+    padding:10px 16px;
+    text-align:center;
+    font-family:Pretendard,sans-serif;
+">
+    <div style="font-size:15px;font-weight:600;">
+        센텀사이언스파크
+    </div>
+
+    <div style="font-size:13px;color:#8b6b4c;margin-top:4px;">
+        1층 라움홀
+    </div>
+</div>
+`
 });
 
 kakao.maps.event.addListener(marker, 'click', function () {
     infowindow.open(map, marker);
 });
-infowindow.open(map, marker);
 });

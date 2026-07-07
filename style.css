@@ -502,3 +502,23 @@ transform:translateX(-50%) translateY(30px) scale(.95);
     }
 
 }
+/* ===== Main Opening ===== */
+
+.container{
+
+    opacity:0;
+
+    transform:translateY(30px);
+
+    transition:opacity .9s ease,
+               transform .9s ease;
+
+}
+
+.container.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}

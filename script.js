@@ -104,7 +104,8 @@ setTimeout(() => {
     setTimeout(() => {
 
         container.classList.add("show");
+        opening.style.display = "none";
 
-    }, 300);
+    }, 800);
 
 }, 1200);

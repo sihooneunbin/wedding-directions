@@ -400,3 +400,80 @@ transform:translateX(-50%) translateY(30px) scale(.95);
     transform:translateY(-3px);
 
 }
+/* ===== Opening ===== */
+
+#opening{
+
+    position:fixed;
+
+    inset:0;
+
+    background:#faf8f5;
+
+    z-index:9999;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:opacity .8s;
+
+}
+
+#opening.hide{
+
+    opacity:0;
+
+    pointer-events:none;
+
+}
+
+.opening-content{
+
+    text-align:center;
+
+    animation:openingFade .8s ease;
+
+}
+
+.opening-heart{
+
+    font-size:40px;
+
+    margin-bottom:18px;
+
+}
+
+.opening-name{
+
+    font-size:30px;
+
+    color:#8b6b4c;
+
+    font-weight:500;
+
+    letter-spacing:-0.5px;
+
+}
+
+@keyframes openingFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}

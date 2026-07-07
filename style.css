@@ -311,7 +311,7 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
     transform:translateY(25px);
 
-    transition:.8s ease;
+transition:.9s cubic-bezier(.22,1,.36,1);
 
 }
 

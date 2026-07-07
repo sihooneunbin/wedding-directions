@@ -142,8 +142,11 @@ background:rgba(250,248,245,.96);
 }
 .map{
     margin-top:50px;
-}
 
+    padding-top:40px;
+
+    border-top:1px solid #ececec;
+}
 .map h3{
     font-size:18px;
     font-weight:500;
@@ -228,7 +231,6 @@ letter-spacing:-0.2px;
 
     padding-bottom:45px;
 
-    border-bottom:1px solid #ececec;
 
 }
 /* ===== Toast ===== */

@@ -484,6 +484,10 @@ background:linear-gradient(90deg,#8b6b4c,#b9976b);
         opacity:1;
 
         transform:translateY(0);
+        
+    }
+
+}
 @keyframes heartbeat{
 
     0%{
@@ -509,25 +513,5 @@ background:linear-gradient(90deg,#8b6b4c,#b9976b);
         opacity:1;
 
     }
-
-}
-/* ===== Main Opening ===== */
-
-.container{
-
-    opacity:0;
-
-    transform:translateY(30px);
-
-    transition:opacity .9s ease,
-               transform .9s ease;
-
-}
-
-.container.show{
-
-    opacity:1;
-
-    transform:translateY(0);
 
 }

@@ -118,7 +118,7 @@ marker.setMap(map);
 
 const overlay = new kakao.maps.CustomOverlay({
     position: marker.getPosition(),
-    yAnchor: 1.75,
+    yAnchor: 1.45,
     content: `
         <div class="overlay-box">
             <div class="overlay-title">센텀사이언스파크</div>

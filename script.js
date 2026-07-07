@@ -97,9 +97,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
-const mapContainer = document.getElementById("kakaoMap");
+kakao.maps.load(function () {
 
-if (mapContainer) {
+    const mapContainer = document.getElementById("kakaoMap");
+
+    if (!mapContainer) return;
 
     const mapOption = {
         center: new kakao.maps.LatLng(35.174139, 129.1260944),
@@ -114,4 +116,4 @@ if (mapContainer) {
 
     marker.setMap(map);
 
-}
+});

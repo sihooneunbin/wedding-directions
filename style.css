@@ -531,14 +531,14 @@ background:linear-gradient(90deg,#8b6b4c,#b9976b);
 
     background:#fff;
     border-radius:14px;
-    padding:10px 16px;
+    padding:8px 12px;
     border:1px solid #ececec;
     box-shadow:0 8px 20px rgba(0,0,0,.12);
 
     text-align:center;
     font-family:Pretendard,sans-serif;
 
-    min-width:160px;
+    min-width:145px;
 
 }
 

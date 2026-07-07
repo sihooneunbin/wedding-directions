@@ -115,15 +115,7 @@ const marker = new kakao.maps.Marker({
 });
 
 marker.setMap(map);
-setTimeout(() => {
 
-    marker.setAnimation(kakao.maps.Animation.BOUNCE);
-
-    setTimeout(() => {
-        marker.setAnimation(null);
-    }, 700);
-
-}, 500);
 const overlay = new kakao.maps.CustomOverlay({
     position: marker.getPosition(),
     yAnchor: 1.45,

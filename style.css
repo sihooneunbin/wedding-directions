@@ -351,3 +351,52 @@ transform:translateX(-50%) translateY(30px) scale(.95);
     margin-bottom:35px;
 
 }
+/* ===== Top Button ===== */
+
+#topButton{
+
+    position:fixed;
+
+    right:24px;
+
+    bottom:30px;
+
+    width:48px;
+
+    height:48px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#8b6b4c;
+
+    color:#fff;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.2);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.3s;
+
+}
+
+#topButton.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+#topButton:hover{
+
+    transform:translateY(-3px);
+
+}

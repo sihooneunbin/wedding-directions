@@ -126,10 +126,14 @@ content: `
     align-items:center;
     justify-content:center;
 ">
-    <div style="font-size:15px;font-weight:600;">
-        text-align:center;
-        센텀사이언스파크
-    </div>
+<div style="
+    font-size:15px;
+    font-weight:600;
+    text-align:center;
+    width:100%;
+">
+    센텀사이언스파크
+</div>
 
 <div style="
     font-size:13px;

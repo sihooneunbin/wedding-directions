@@ -91,3 +91,14 @@ topButton.addEventListener("click", () => {
     });
 
 });
+window.addEventListener("load",()=>{
+
+    const opening=document.getElementById("opening");
+
+    setTimeout(()=>{
+
+        opening.classList.add("hide");
+
+    },1200);
+
+});

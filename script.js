@@ -97,12 +97,14 @@ window.addEventListener("load",()=>{
 
     const container=document.querySelector(".container");
 
-    setTimeout(()=>{
+setTimeout(() => {
 
-        opening.classList.add("hide");
+    opening.classList.add("hide");
+
+    setTimeout(() => {
 
         container.classList.add("show");
 
-    },1200);
+    }, 300);
 
-});
+}, 1200);

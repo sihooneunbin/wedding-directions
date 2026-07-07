@@ -530,10 +530,10 @@ background:linear-gradient(90deg,#8b6b4c,#b9976b);
 .overlay-box{
 
     background:#fff;
-    border-radius:14px;
+    border-radius:12px;
     padding:8px 12px;
     border:1px solid #ececec;
-    box-shadow:0 8px 20px rgba(0,0,0,.12);
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
 
     text-align:center;
     font-family:Pretendard,sans-serif;
@@ -544,7 +544,7 @@ background:linear-gradient(90deg,#8b6b4c,#b9976b);
 
 .overlay-title{
 
-    font-size:15px;
+    font-size:14px;
     font-weight:600;
     color:#222;
 
@@ -552,7 +552,7 @@ background:linear-gradient(90deg,#8b6b4c,#b9976b);
 
 .overlay-sub{
 
-    margin-top:4px;
+    margin-top:2px;
     font-size:13px;
     color:#8b6b4c;
 

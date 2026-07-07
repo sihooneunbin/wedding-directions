@@ -122,7 +122,7 @@ const overlay = new kakao.maps.CustomOverlay({
     content: `
         <div class="overlay-box">
             <div class="overlay-title">센텀사이언스파크</div>
-            <div class="overlay-sub">1층 라움홀</div>
+            <div class="overlay-sub">1층 더라움홀</div>
         </div>
     `
 });

@@ -126,13 +126,20 @@ content: `
     align-items:center;
     justify-content:center;
 ">
-    <div style="font-size:14px;font-weight:600;">
+    <div style="font-size:15px;font-weight:600;">
+        text-align:center;
         센텀사이언스파크
     </div>
 
-    <div style="font-size:13px;color:#8b6b4c;margin-top:4px;">
-        1층 라움홀
-    </div>
+<div style="
+    font-size:13px;
+    color:#8b6b4c;
+    margin-top:4px;
+    text-align:center;
+    width:100%;
+">
+    1층 라움홀
+</div>
 </div>
 `
 });

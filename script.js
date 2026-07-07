@@ -119,10 +119,12 @@ marker.setMap(map);
 const infowindow = new kakao.maps.InfoWindow({
 content: `
 <div style="
-    padding:6px 10px;
-    text-align:center;
+    padding:10px 16px;
     font-family:Pretendard,sans-serif;
-    white-space:nowrap;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 ">
     <div style="font-size:14px;font-weight:600;">
         센텀사이언스파크

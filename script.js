@@ -97,3 +97,21 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+const mapContainer = document.getElementById("kakaoMap");
+
+if (mapContainer) {
+
+    const mapOption = {
+        center: new kakao.maps.LatLng(35.174139, 129.1260944),
+        level: 3
+    };
+
+    const map = new kakao.maps.Map(mapContainer, mapOption);
+
+    const marker = new kakao.maps.Marker({
+        position: new kakao.maps.LatLng(35.174139, 129.1260944)
+    });
+
+    marker.setMap(map);
+
+}

@@ -236,7 +236,7 @@ letter-spacing:-0.2px;
     position:fixed;
 
     left:50%;
-    bottom:35px;
+    bottom:90px;
 
     transform:translateX(-50%) translateY(30px);
 
@@ -244,11 +244,11 @@ letter-spacing:-0.2px;
 
     color:white;
 
-    padding:14px 24px;
+    padding:16px 28px;
 
-    border-radius:30px;
+    border-radius:18px;
 
-    font-size:15px;
+    font-size:16px;
 
     opacity:0;
 
@@ -257,6 +257,12 @@ letter-spacing:-0.2px;
     pointer-events:none;
 
     box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+    min-width:320px;
+
+    white-space:nowrap;
+
+    text-align:center;
 
 }
 

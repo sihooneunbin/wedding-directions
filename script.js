@@ -108,19 +108,28 @@ kakao.maps.load(function () {
         level: 3
     };
 
-    const map = new kakao.maps.Map(mapContainer, mapOption);
-
-const imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
-
-const imageSize = new kakao.maps.Size(24, 35);
-
-const markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);
+const map = new kakao.maps.Map(mapContainer, mapOption);
 
 const marker = new kakao.maps.Marker({
-    position: new kakao.maps.LatLng(35.174139, 129.1260944),
-    image: markerImage
+    position: new kakao.maps.LatLng(35.174139, 129.1260944)
 });
 
 marker.setMap(map);
+
+const infowindow = new kakao.maps.InfoWindow({
+    content: `
+        <div style="padding:12px 16px; text-align:center;">
+            <div style="font-size:18px;">🤍</div>
+            <div style="font-weight:bold;">센텀사이언스파크 웨딩홀</div>
+            <div style="font-size:13px; color:#777;">
+                2026.12.12 (토) 오후 4:00
+            </div>
+        </div>
+    `
+});
+
+kakao.maps.event.addListener(marker, 'click', function () {
+    infowindow.open(map, marker);
+});
 
 });

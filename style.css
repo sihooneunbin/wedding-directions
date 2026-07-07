@@ -460,6 +460,12 @@ transform:translateX(-50%) translateY(30px) scale(.95);
     letter-spacing:-0.4px;
 
 }
+.amp{
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size:18px;
+    opacity:.6;
+}
 .opening-line{
 
     width:60px;

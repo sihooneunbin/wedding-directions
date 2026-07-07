@@ -92,7 +92,7 @@ topButton.addEventListener("click", () => {
     
 });
 
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
     const opening = document.getElementById("opening");
 
@@ -101,5 +101,9 @@ window.addEventListener("load", () => {
         opening.classList.add("hide");
 
     }, 1800);
+
+    opening.addEventListener("transitionend", () => {
+        opening.style.display = "none";
+    });
 
 });

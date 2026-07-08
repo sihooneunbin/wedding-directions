@@ -678,6 +678,17 @@ background:#ddd6ce;
 
 }
 
+.map-app span{
+
+    color:#444;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    line-height:1;
+
+}
 .map-app:hover{
 
     color:#b59a7d;

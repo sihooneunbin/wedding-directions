@@ -142,6 +142,8 @@ background:rgba(250,248,245,.96);
 }
 /* ===== 지도 앱 버튼 ===== */
 
+/* ===== 지도 버튼 ===== */
+
 .map-links{
 
     display:flex;
@@ -149,8 +151,6 @@ background:rgba(250,248,245,.96);
     gap:10px;
 
     margin:18px 0 12px;
-
-}
 
 }
 
@@ -184,13 +184,11 @@ background:rgba(250,248,245,.96);
 
     background:#f8f3ed;
 
-    transform:translateY(-2px);
-
 }
 
 .map-btn:active{
 
-    transform:translateY(1px);
+    transform:translateY(2px);
 
 }
 .map{

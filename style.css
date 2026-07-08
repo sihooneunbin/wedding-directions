@@ -666,45 +666,15 @@ background:#ddd6ce;
 
 }
 
-.map-app span{
+.map-app img{
 
-    width:24px;
+    width:22px;
 
-    height:24px;
+    height:22px;
 
-    border-radius:50%;
+    object-fit:contain;
 
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    color:#fff;
-
-    font-size:12px;
-
-    font-weight:700;
-
-}
-
-.naver span{
-
-    background:#03C75A;
-
-}
-
-.kakao span{
-
-    background:#FEE500;
-
-    color:#222;
-
-}
-
-.tmap span{
-
-    background:#2F7CF6;
+    flex-shrink:0;
 
 }
 

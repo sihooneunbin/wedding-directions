@@ -152,43 +152,6 @@ background:rgba(250,248,245,.96);
 
 }
 
-.map-btn{
-
-    flex:1;
-
-    text-align:center;
-
-    padding:10px 0;
-
-    border:1px solid #ececec;
-
-    border-radius:10px;
-
-    background:#fff;
-
-    color:#222;
-
-    text-decoration:none;
-
-    font-size:14px;
-
-    font-weight:500;
-
-    transition:.25s;
-
-}
-
-.map-btn:hover{
-
-    background:#f8f3ed;
-
-}
-
-.map-btn:active{
-
-    transform:translateY(2px);
-
-}
 .map{
     margin-top:50px;
 
@@ -667,5 +630,88 @@ background:#ddd6ce;
         transform:translateY(0);
 
     }
+
+}
+/* ===== 지도 앱 ===== */
+
+.map-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:24px;
+
+    margin:18px 0 12px;
+
+}
+
+.map-app{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    text-decoration:none;
+
+    color:#444;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.25s;
+
+}
+
+.map-app span{
+
+    width:24px;
+
+    height:24px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:12px;
+
+    font-weight:700;
+
+}
+
+.naver span{
+
+    background:#03C75A;
+
+}
+
+.kakao span{
+
+    background:#FEE500;
+
+    color:#222;
+
+}
+
+.tmap span{
+
+    background:#2F7CF6;
+
+}
+
+.map-app:hover{
+
+    color:#b59a7d;
+
+    transform:translateY(-1px);
 
 }

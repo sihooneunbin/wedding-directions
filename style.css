@@ -256,13 +256,13 @@ letter-spacing:-0.2px;
 
 transform:translateX(-50%) translateY(30px) scale(.95);
 
-    background:#222;
+background:rgba(34,34,34,.92);
 
     color:white;
 
     padding:10px 24px;
 
-    border-radius:14px;
+    border-radius:18px;
 
     font-size:15px;
 
@@ -272,7 +272,7 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
     pointer-events:none;
 
-    box-shadow:0 8px 20px rgba(0,0,0,.18);
+ 0 12px 30px rgba(0,0,0,.18);
 
     min-width:320px;
 
@@ -286,7 +286,7 @@ transform:translateX(-50%) translateY(30px) scale(.95);
 
     opacity:1;
 
-    transform:translateX(-50%) translateY(0) scale(1.03);
+    transform:translateX(-50%) translateY(0) scale(1);
 
 }
 .footer{

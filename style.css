@@ -647,22 +647,24 @@ background:#ddd6ce;
 .map-app{
 
     display:flex;
+
     align-items:center;
-    gap:6px;
-flex:1;
-justify-content:center;
+
+    gap:8px;
+
     text-decoration:none;
+
     color:#444;
 
     font-size:15px;
+
     font-weight:500;
 
-    padding:6px 10px;
-    border-radius:999px;
-
     transition:.25s;
-}
 
+    white-space: nowrap;
+
+}
 .map-app img{
 
     width:22px;

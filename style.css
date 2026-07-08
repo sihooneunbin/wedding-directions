@@ -649,21 +649,19 @@ background:#ddd6ce;
 .map-app{
 
     display:flex;
-
     align-items:center;
-
-    gap:8px;
+    gap:6px;
 
     text-decoration:none;
-
     color:#444;
 
     font-size:15px;
-
     font-weight:500;
 
-    transition:.25s;
+    padding:6px 10px;
+    border-radius:999px;
 
+    transition:.25s;
 }
 
 .map-app img{
@@ -691,8 +689,8 @@ background:#ddd6ce;
 }
 .map-app:hover{
 
+    background:#f8f4ef;
     color:#b59a7d;
 
     transform:translateY(-1px);
-
 }

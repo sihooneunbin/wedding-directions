@@ -640,8 +640,6 @@ background:#ddd6ce;
 
     justify-content:center;
 
-    gap:34px;
-
     margin:18px 0 12px;
 
 }
@@ -651,7 +649,8 @@ background:#ddd6ce;
     display:flex;
     align-items:center;
     gap:6px;
-
+flex:1;
+justify-content:center;
     text-decoration:none;
     color:#444;
 

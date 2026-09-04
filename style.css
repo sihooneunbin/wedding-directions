@@ -788,3 +788,10 @@ background:#ddd6ce;
 .map{
     border-top:none !important;
 }
+.section-label{
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:5px;
+    color:#888;
+}

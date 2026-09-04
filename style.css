@@ -465,13 +465,17 @@ transition:.9s cubic-bezier(.22,1,.36,1);
 
     margin-top:20px;
 
+    font-family:Georgia, "Times New Roman", serif;
+
     font-size:28px;
 
-    font-weight:300;
+    font-weight:400;
+
+    font-style:italic;
 
     color:#b59a7d;
 
-    letter-spacing:-0.4px;
+    letter-spacing:-1px;
 
 }
 .amp{

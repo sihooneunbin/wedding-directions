@@ -184,7 +184,7 @@ background:rgba(250,248,245,.96);
 }
 
 .traffic article{
-
+text-align:left;
     padding:36px 0;
 
     border-top:1px solid #ececec;

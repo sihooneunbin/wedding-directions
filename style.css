@@ -795,3 +795,10 @@ background:#ddd6ce;
     letter-spacing:5px;
     color:#888;
 }
+.section-label{
+    font-family:Georgia, "Times New Roman", serif !important;
+    font-size:13px !important;
+    font-weight:600 !important;
+    letter-spacing:5px !important;
+    color:#888 !important;
+}

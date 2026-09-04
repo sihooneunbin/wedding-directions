@@ -160,8 +160,11 @@ background:rgba(250,248,245,.96);
     border-top:1px solid #ececec;
 }
 .map h3{
-    font-size:18px;
-    font-weight:500;
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:5px;
+    color:#888;
     margin-bottom:18px;
 }
 
@@ -359,13 +362,12 @@ transition:.9s cubic-bezier(.22,1,.36,1);
 
 }
 .traffic-title{
-
-    font-size:18px;
-
-    font-weight:500;
-
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:5px;
+    color:#888;
     margin-bottom:35px;
-
 }
 /* ===== Top Button ===== */
 
@@ -794,11 +796,4 @@ background:#ddd6ce;
     font-weight:600;
     letter-spacing:5px;
     color:#888;
-}
-.section-label{
-    font-family:Georgia, "Times New Roman", serif !important;
-    font-size:13px !important;
-    font-weight:600 !important;
-    letter-spacing:5px !important;
-    color:#888 !important;
 }

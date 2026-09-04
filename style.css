@@ -565,7 +565,8 @@ background:#ddd6ce;
 }
 #kakaoMap{
     width:100%;
-    height:400px;
+    aspect-ratio:1 / 1;
+    height:auto;
     border-radius:18px;
     overflow:hidden;
     box-shadow:0 8px 20px rgba(0,0,0,.08);

@@ -697,3 +697,69 @@ background:#ddd6ce;
 
     transform:translateY(-1px);
 }
+/* ===== 오시는 길 상단 ===== */
+
+.hero{
+    text-align:center;
+    padding:55px 20px 65px;
+}
+
+/* WEDDING DAY. */
+.hero-label{
+    margin:0 0 25px;
+
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:5px;
+
+    color:#888;
+}
+
+/* 신랑 신부 이름 */
+.hero-names{
+    margin:0;
+
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:36px;
+    font-weight:400;
+    font-style:italic;
+    letter-spacing:-1px;
+    line-height:1.35;
+
+    color:#292929;
+}
+
+/* & */
+.hero-names span{
+    display:block;
+
+    margin:7px 0;
+
+    font-size:18px;
+    font-style:normal;
+    font-weight:400;
+
+    color:#888;
+}
+
+/* 날짜 */
+.hero-date{
+    margin:32px 0 0;
+
+    font-size:16px;
+    font-weight:400;
+    letter-spacing:.3px;
+
+    color:#777;
+}
+
+/* 예식장 */
+.hero-venue{
+    margin:14px 0 0;
+
+    font-size:16px;
+    font-weight:400;
+
+    color:#888;
+}

@@ -785,3 +785,6 @@ background:#ddd6ce;
     font-weight:500 !important;
     line-height:1.9 !important;
 }
+.map{
+    border-top:none !important;
+}

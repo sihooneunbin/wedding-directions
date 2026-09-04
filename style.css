@@ -797,3 +797,12 @@ background:#ddd6ce;
     letter-spacing:5px;
     color:#888;
 }
+.traffic h2.traffic-title{
+    font-family:Georgia, "Times New Roman", serif !important;
+    font-size:13px !important;
+    font-weight:600 !important;
+    letter-spacing:5px !important;
+    color:#888 !important;
+    line-height:1.9 !important;
+    text-align:center !important;
+}

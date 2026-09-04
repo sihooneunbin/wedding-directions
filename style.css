@@ -272,7 +272,7 @@ background:rgba(34,34,34,.92);
 
     pointer-events:none;
 
- 0 12px 30px rgba(0,0,0,.18);
+ box-shadow:0 12px 30px rgba(0,0,0,.18);
 
     min-width:320px;
 
@@ -775,4 +775,13 @@ background:#ddd6ce;
 .traffic-title{
     font-size:18px;
     font-weight:500;
+}
+.traffic-title{
+    font-size:18px;
+    font-weight:500;
+}
+.traffic h2.traffic-title{
+    font-size:18px !important;
+    font-weight:500 !important;
+    line-height:1.9 !important;
 }

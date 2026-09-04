@@ -74,27 +74,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-    // ===== Opening =====
+// ===== Opening =====
 
-    window.scrollTo(0, 0);
+window.scrollTo(0, 0);
 
-    const opening = document.getElementById("opening");
+const opening = document.getElementById("opening");
 
-    requestAnimationFrame(() => {
+if (opening) {
 
-        setTimeout(() => {
-
-            opening.classList.add("hide");
-
-        }, 1800);
-
-    });
+    setTimeout(() => {
+        opening.classList.add("hide");
+    }, 1800);
 
     opening.addEventListener("transitionend", () => {
-
         opening.style.display = "none";
-
     });
+
+}
 
 });
 kakao.maps.load(function () {

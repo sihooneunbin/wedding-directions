@@ -52,28 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     fades.forEach(item => observer.observe(item));
 
-    // ===== Top Button =====
-    const topButton = document.getElementById("topButton");
-
-    window.addEventListener("scroll", () => {
-
-        if (window.scrollY > 300) {
-            topButton.classList.add("show");
-        } else {
-            topButton.classList.remove("show");
-        }
-
-    });
-
-    topButton.addEventListener("click", () => {
-
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-
-    });
-
 // ===== Opening =====
 
 window.scrollTo(0, 0);
